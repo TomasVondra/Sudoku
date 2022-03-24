@@ -7,7 +7,7 @@ package sudoku;
 
 /**
  *
- * @author Tom
+ * @author Tom Vondra
  */
 public class JedinecnostCtverce extends Pravidlo{
 
