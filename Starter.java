@@ -12,12 +12,9 @@ package sudoku;
 public class Starter {
     
     public static void main(String[] args) throws Exception {
-        Sudoku sudoku = new Sudoku(3);
+        Sudoku sudoku = new Sudoku(1);
         sudoku.generuj(); 
-        System.out.println(sudoku);
-        sudoku.prohazuj();
-        sudoku.deruj();
-        sudoku.vypis();
+        sudoku.vypis(true);
     }
    
 }
